@@ -1,4 +1,4 @@
-import { FC, useState } from "react";
+`import { FC, useState } from "react";
 import { useAppDispatch, useAppSelector } from "../redux/hooks";
 import {
   MdFavoriteBorder,
@@ -84,5 +84,4 @@ const CustomPopup: FC = () => {
     </div>
   );
 };
-
 export default CustomPopup;
